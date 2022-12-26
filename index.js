@@ -24,12 +24,6 @@ app.use(express.json()); // para que el servidor entienda los datos que le llega
 // puerto de la app
 app.listen(process.env.PORT, () => {
     console.log(`Server running on http://localhost:${process.env.PORT}`); // para que se ejecute en el puerto que le indiquemos en el archivo .env
-    // mostrar las rutas que tenemos disponibles
-    console.log('Routes:');
-    console.log('http://localhost:3000/api/auth');
-    console.log('http://localhost:3000/api/auth/renew');
-    console.log('http://localhost:3000/api/auth/delete');
-
 })
 
 
